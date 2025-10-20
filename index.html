@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+    <style>
+        main{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        div.quadrado{
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        div#q1{
+            background-color: rgba(148, 66, 224, 0.729);
+        }
+
+        div#q2{
+            background-image: linear-gradient(to bottom, skyblue, rgba(0, 0, 255, 0.548));
+        }
+
+        div#q3{
+            background-image: url(imagens-cap19/pattern001.png);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="quadrado" id="q1">
+        </div>
+
+        <div class="quadrado" id="q2">
+        </div>
+
+        <div class="quadrado" id="q3">
+        </div>
+    </main>
+</body>
+</html>
